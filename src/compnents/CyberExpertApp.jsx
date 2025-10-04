@@ -101,7 +101,7 @@ const CyberExpertApp = () => {
         </div>
 
         {/* Cart Section */}
-        <div className="bg-gray-100 p-6 rounded shadow h-fit">
+        <div className="bg-lime-200 p-6 mt-16 rounded shadow-xl h-fit">
           <h2 className="text-2xl font-bold mb-4 text-center">Selected Experts</h2>
           {cart.length > 0 ? (
             <div className="space-y-3">
