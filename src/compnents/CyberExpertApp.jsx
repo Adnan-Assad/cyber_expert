@@ -73,8 +73,8 @@ const CyberExpertApp = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Expert List */}
         <div className="lg:col-span-2">
-          <h2 className="text-2xl font-semibold mb-4">Available Experts</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <h2 className="text-2xl font-semibold mb-4 bg-pink-300 hover:bg-blue-300 cursor-pointer rounded-sm px-0.5">Available Experts</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"> 
             {experts.map((expert) => (
               <div key={expert.id} className="bg-white p-4 rounded shadow">
                 <img
@@ -86,7 +86,7 @@ const CyberExpertApp = () => {
                 <h3 className="font-semibold mb-2"> <span className="bg-emerald-200 px-0.5  rounded-sm">Age: </span>{expert.age}</h3>
                 <p className=" font-semibold"><span className=" bg-amber-200 px-0.5 rounded-sm ">Designation: </span>{expert.designation}</p>
                 <p className=" font-semibold"><span className="bg-sky-200 px-0.5 rounded-sm ">Address: </span>{expert.address}</p>
-                <p className="text-sm font-bold mt-2">
+                <p className="text-sm font-bold mt-2"> 
                   Salary: ${expert.salary}
                 </p>
                 <button
