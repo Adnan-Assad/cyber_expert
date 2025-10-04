@@ -73,7 +73,7 @@ const CyberExpertApp = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Expert List */}
         <div className="lg:col-span-2">
-          <h2 className="text-2xl font-semibold mb-4 bg-pink-300 hover:bg-blue-300 cursor-pointer rounded-sm px-0.5">Available Experts</h2>
+          <h2 className="text-2xl font-semibold mb-4 bg-pink-300 hover:bg-blue-300 cursor-pointer rounded-sm px-1 py-1 inline-block">Available Experts</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"> 
             {experts.map((expert) => (
               <div key={expert.id} className="bg-white p-4 rounded shadow">
